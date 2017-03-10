@@ -1,12 +1,12 @@
 [
-	{ "keys": ["ctrl+shift+j"], "command": "move", "args": {"by": "characters", "forward": false} },
-	{ "keys": ["ctrl+shift+l"], "command": "move", "args": {"by": "characters", "forward": true} },
-	{ "keys": ["ctrl+shift+i"], "command": "move", "args": {"by": "lines", "forward": false} },
-	{ "keys": ["ctrl+shift+k"], "command": "move", "args": {"by": "lines", "forward": true} },
+	{ "keys": ["alt+shift+j"], "command": "move", "args": {"by": "characters", "forward": false} },
+	{ "keys": ["alt+shift+l"], "command": "move", "args": {"by": "characters", "forward": true} },
+	{ "keys": ["alt+shift+i"], "command": "move", "args": {"by": "lines", "forward": false} },
+	{ "keys": ["alt+shift+k"], "command": "move", "args": {"by": "lines", "forward": true} },
+	{ "keys": ["alt+shift+u"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+	{ "keys": ["alt+shift+o"], "command": "move_to", "args": {"to": "eol", "extend": false} }, 
 	{ "keys": ["alt+ctrl+shift+j"], "command": "move", "args": {"by": "characters", "forward": false, "extend": true} },
 	{ "keys": ["alt+ctrl+shift+l"], "command": "move", "args": {"by": "characters", "forward": true, "extend": true} },
 	{ "keys": ["alt+ctrl+shift+i"], "command": "move", "args": {"by": "lines", "forward": false, "extend": true} },
 	{ "keys": ["alt+ctrl+shift+k"], "command": "move", "args": {"by": "lines", "forward": true, "extend": true} },
-	{ "keys": ["ctrl+shift+u"], "command": "move_to", "args": {"to": "bol", "extend": false} },
-	{ "keys": ["ctrl+shift+o"], "command": "move_to", "args": {"to": "eol", "extend": false} },
 ]
