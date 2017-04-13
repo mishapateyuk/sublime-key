@@ -9,4 +9,6 @@
 	{ "keys": ["alt+ctrl+shift+l"], "command": "move", "args": {"by": "characters", "forward": true, "extend": true} },
 	{ "keys": ["alt+ctrl+shift+i"], "command": "move", "args": {"by": "lines", "forward": false, "extend": true} },
 	{ "keys": ["alt+ctrl+shift+k"], "command": "move", "args": {"by": "lines", "forward": true, "extend": true} },
+	{ "keys": ["alt+shift+p"], "command": "swap_line_up" },
+	{ "keys": ["alt+shift+;"], "command": "swap_line_down" },
 ]
