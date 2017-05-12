@@ -11,4 +11,6 @@
 	{ "keys": ["alt+ctrl+shift+k"], "command": "move", "args": {"by": "lines", "forward": true, "extend": true} },
 	{ "keys": ["alt+shift+p"], "command": "swap_line_up" },
 	{ "keys": ["alt+shift+;"], "command": "swap_line_down" },
+	{ "keys": ["alt+shift+m"], "command": "move", "args": {"by": "words", "forward": false} },
+	{ "keys": ["alt+shift+."], "command": "move", "args": {"by": "word_ends", "forward": true} },
 ]
