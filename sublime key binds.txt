@@ -15,4 +15,6 @@
 	{ "keys": ["alt+shift+."], "command": "move", "args": {"by": "word_ends", "forward": true} },
 	{ "keys": ["alt+ctrl+shift+u"], "command": "move_to", "args": {"to": "bol", "extend": true} },
 	{ "keys": ["alt+ctrl+shift+o"], "command": "move_to", "args": {"to": "eol", "extend": true} },
+	{ "keys": ["alt+ctrl+shift+m"], "command": "move", "args": {"by": "words", "forward": false, "extend": true} },
+	{ "keys": ["alt+ctrl+shift+."], "command": "move", "args": {"by": "word_ends", "forward": true, "extend": true} },
 ]
